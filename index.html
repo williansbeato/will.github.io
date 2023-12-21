@@ -1,94 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cssbolado.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escreva seu Nome</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
+ 
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="./img/and.png" alt="Law Firm Logo">
+        <h1>Nome a ser colocado</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
       
-<div class="🐕">
-  <div class="torso">
-    <div class="fur">
-      <div class="spot"></div>
-    </div>
-    <div class="neck">
-      <div class="fur"></div>
-      <div class="head">
-        <div class="fur">
-          <div class="snout"></div>          
-        </div>
-        <div class="ears">
-          <div class="ear">
-            <div class="fur"></div>
-          </div>
-          <div class="ear">
-            <div class="fur"></div>
-          </div>
-        </div>
-        <div class="eye"></div>
+      <div class="toggle-button" id="toggleButton">
+        <i class="fas fa-bars"></i> 
       </div>
-      <div class="collar">
+
+    </nav>
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-box"></div>
+      <ul class="sidebar-nav">
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </div>
+  </header>
+
+
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1>Escreva seu Nome</h1>
+          <p>Advogado especialista em Direito Criminal</p>
+          <a href="#contact" class="btn">Contrate</a>
+        </div>
+      </div>
+    </section>
+
+
+    <h2 class="service-title">Serviços</h2>
+    <section class="services" id="services">
+
+      <div class="service-box">
+        <img src="./img/serv-1.jpeg" alt="Service 1">
+        <div class="service-content">
+          
+          <h2>DEFESAS CRIMINAIS</h2>
+          <p>Quando o processo se inicia, o réu tem o direito de fazer sua defesa por meio de seu advogado de confiança.</p>
+        </div>
+      </div>
+      <div class="service-box">
+        <img src="./img/serv-2.jpeg" alt="Service 2">
+        <div class="service-content">
+          
+          <h2>AUDIÊNCIAS CRIMINAIS</h2>
+          <p>A audiência é a fase principal do processo. Ter um advogado especializado fará toda a diferença.</p>
+        </div>
+      </div>
+      <div class="service-box">
+        <img src="./img/serv-3.png" alt="Service 3">
+        <div class="service-content">
+          
+          <h2>INQUÉRITO POLICIAL</h2>
+          <p>Inquérito Policial é a investigação que busca elementos para configurar a culpa ou inocência do investigado.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="lawyer-info">
+        <img src="./img/whatsapp1.png" alt="Lawyer Photo">
+        <div class="lawyer-description">
+          <h2>ESCREVA SEU NOME</h2>
+          <p>Advogado Criminalista.</p>
+          <p>Especializado em Direito Penal e Pós Graduado em Direito Penal.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-info">
+        <h2>Informações para Contato</h2>
+        <p>
+          <i class="fas fa-map-marker-alt"></i>
+          157 Av. Roque Vernalha, Paranaguá, Paraná
+        </p>
+        <p>
+          <i class="fas fa-phone-alt"></i>
+          Telefone: +1 234 567 890
+        </p>
+        <p>
+          <i class="fas fa-envelope"></i>
+          Email: EMAIL@escrevaseuemail.com
+        </p>
+        <div class="social-links">
+          <a href="#" class="social-icon">WhatsApp</a>
+          <a href="#" class="social-icon">Instagram</a>
+          <a href="#" class="social-icon">LinkedIn</a>
         
-      </div>
-    </div>
-    <div class="legs">
-      <div class="leg">
-        <div class="fur"></div>
-        <div class="leg-inner">
-          <div class="fur"></div>
         </div>
       </div>
-      <div class="leg">
-        <div class="fur"></div>
-        <div class="leg-inner">
-          <div class="fur"></div>
-        </div>
-      </div>
-      <div class="leg">
-        <div class="fur"></div>
-        <div class="leg-inner">
-          <div class="fur"></div>
-        </div>
-      </div>
-      <div class="leg">
-        <div class="fur"></div>
-        <div class="leg-inner">
-          <div class="fur"></div>
-        </div>
-      </div>
-    </div>
-    <div class="tail">
-      <div class="tail">
-        <div class="tail">
-          <div class="tail -end">
-            <div class="tail">
-              <div class="tail">
-                <div class="tail">
-                  <div class="tail"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+    </section>
+  </main>
 
-<div id="load">
-  <div>O</div>
-  <div>H</div>
-  <div>N</div>
-  <div>I</div>
-  <div>G</div>
-  <div>O</div>
-  <div>D</div>
-</div>
-    
+  <footer>
+    <p class="text-footer">  2024 Todos os direitos reservados &copy;  escreva seu nome.</p>
+      <div class="dividi-footer"></div>
+    <p>Desenvolvido por Aquadev</p>
+  </footer>
 
-</form>
+  <a href="https://api.whatsapp.com/send?phone=123456789" class="whatsapp-button" target="_blank">
+    <img src="./img/whatsapp1.png" alt="WhatsApp Icon">
+  </a>
 
+  <script src="scripts.js"></script> 
 </body>
 </html>
